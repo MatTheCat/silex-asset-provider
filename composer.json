@@ -24,5 +24,8 @@
         "psr-4": {
             "MatTheCat\\Asset\\": "src/"
         }
+    },
+    "suggest": {
+        "symfony/twig-bridge": "For using Twig asset function"
     }
 }
