@@ -16,10 +16,11 @@ cache:
         - $HOME/.composer/cache
 
 before_script:
-    - composer require silex/silex:${SILEX_VERSION}
-    - composer require symfony/asset:*
-    - composer require symfony/twig-bridge:*
+    - composer require --no-update silex/silex:${SILEX_VERSION}
+    - composer install
 
-script: phpunit --coverage-text
+script:
+    - vendor/fabpot/php-cs-fixer/php-cs-fixer fix --dry-run --diff
+    - phpunit --coverage-text
 
 sudo: false
