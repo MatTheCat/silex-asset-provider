@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/MatTheCat/silex-asset-provider.svg?branch=master)](https://travis-ci.org/MatTheCat/silex-asset-provider)
+
 # AssetServiceProvider
 
 The *AssetServiceProvider* leverages the [Symfony asset component](http://symfony.com/doc/current/components/asset/introduction.html) for Silex.
@@ -6,7 +8,8 @@ The *AssetServiceProvider* leverages the [Symfony asset component](http://symfon
 
 - **assets**: Packages configuration.
 
-The **assets** parameter follows the same convention than the Symfony Framework Bundle assets configuration. A package configuration is defined by an associative array with the following optional keys:
+The **assets** parameter follows the same convention than the [Symfony Framework Bundle assets configuration](https://github.com/javiereguiluz/symfony-docs/blob/new_asset_config/reference/configuration/framework.rst#assets).
+A package configuration is defined by an associative array with the following optional keys:
 
 - **base_path**
 - **base_urls**
