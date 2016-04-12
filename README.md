@@ -8,7 +8,7 @@ The *AssetServiceProvider* leverages the [Symfony asset component](http://symfon
 
 - **assets**: Packages configuration.
 
-The **assets** parameter follows the same convention than the [Symfony Framework Bundle assets configuration](https://github.com/javiereguiluz/symfony-docs/blob/new_asset_config/reference/configuration/framework.rst#assets).
+The **assets** parameter follows the same convention than the [Symfony Framework Bundle assets configuration](http://symfony.com/doc/current/reference/configuration/framework.html#assets).
 A package configuration is defined by an associative array with the following optional keys:
 
 - **base_path**
@@ -16,7 +16,7 @@ A package configuration is defined by an associative array with the following op
 - **version**
 - **version_format**
 
-These key under **assets** define the default package configuration.
+These keys under **assets** define the default package configuration.
 
 You can add packages adding a **packages** key under **assets** which value is an associative array with packages name as keys and their configuration as values.
 
@@ -34,4 +34,4 @@ $app->register(new AssetServiceProvider());
 
 ## Twig extension
 
-If `Symfony\Bridge\Twig\Extension\AssetExtension` exists, you'll be able to use Twig `asset` function.
+You'll be able to use Twig `asset` function by requiring `symfony/twig-bridge` starting from 2.7.0.
