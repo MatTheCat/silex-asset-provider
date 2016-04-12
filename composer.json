@@ -13,7 +13,7 @@
     "require": {
         "php": ">=5.4.0",
         "silex/silex": "<2",
-        "symfony/asset": ">=2.7.0"
+        "symfony/asset": "*"
     },
     "require-dev": {
         "fabpot/php-cs-fixer": "*",
