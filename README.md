@@ -1,5 +1,11 @@
 [![Build Status](https://travis-ci.org/MatTheCat/silex-asset-provider.svg?branch=master)](https://travis-ci.org/MatTheCat/silex-asset-provider)
 
+# :warning:
+
+[Silex 2 is out](https://twitter.com/fabpot/status/732848312819318784)!
+
+You can still use this provider with Silex 1 but you'll have to switch to the native [`AssetServiceProvider`](http://silex.sensiolabs.org/doc/master/providers/asset.html) when upgrading.
+
 # AssetServiceProvider
 
 The *AssetServiceProvider* leverages the [Symfony asset component](http://symfony.com/doc/current/components/asset/introduction.html) for Silex.
